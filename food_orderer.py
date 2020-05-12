@@ -34,16 +34,16 @@ class FoodOrder():
         now_btn.click()
 
         street_num_in = self.driver.find_element_by_xpath('//*[@id="customer-street-no"]')
-        street_num_in.send_keys('14')
+        street_num_in.send_keys('97')
 
         street_in = self.driver.find_element_by_xpath('//*[@id="customer-street-name"]')
-        street_in.send_keys('Parry St')
+        street_in.send_keys('Elizabeth Street')
 
         suburb_in = self.driver.find_element_by_xpath('//*[@id="customer-suburb"]')
-        suburb_in.send_keys('Belgian Gardens')
+        suburb_in.send_keys('Brisbane City')
 
         postcode_in = self.driver.find_element_by_xpath('//*[@id="customer-postcode"]')
-        postcode_in.send_keys('4810')
+        postcode_in.send_keys('4000')
 
         next1_btn = self.driver.find_element_by_xpath('//*[@id="order-time-button"]')
         next1_btn.click()
